@@ -21,15 +21,15 @@
 
 
 ### 设计普通队列
-
+[代码](https://github.com/402test/data-structure/blob/master/Queue/queue_1.py)
 
 
 普通队列无法做到循环使用，随着起始指针的移动，浪费了越来越多的空间。
 
 ### 设计循环队列
-
-- 时间复杂度：\mathcal{O}(1)O(1)。该数据结构中，所有方法都具有恒定的时间复杂度。
-- 空间复杂度：\mathcal{O}(N)O(*N*)，其中 N*N* 是队列的预分配容量。*循环队列的整个生命周期中，都持有该预分配的空间。*
+[代码](https://github.com/402test/data-structure/blob/master/Queue/queue_2.py)
+- 时间复杂度：O(1)。该数据结构中，所有方法都具有恒定的时间复杂度。
+- 空间复杂度：O(N)，其中 N 是队列的预分配容量。*循环队列的整个生命周期中，都持有该预分配的空间。*
 
 
 
