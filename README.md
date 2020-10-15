@@ -175,3 +175,5 @@ class MyCircularQueue:
 每个 deadends 和 target 中的字符串的数字会在 10,000 个可能的情况 '0000' 到 '9999' 中产生。
 
 [代码](https://github.com/402test/data-structure/blob/master/Queue/queue_4.py)
+
+2020-10-15
