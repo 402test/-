@@ -108,11 +108,11 @@ class MyCircularQueue:
 
 
 
-代码
+[代码](https://github.com/402test/data-structure/blob/master/Queue/queue_3.py)
 
-力扣解答
+[力扣解答](https://github.com/402test/data-structure/blob/master/Queue/leetcode-queue-1.py)
 
-
+[力扣解答](https://github.com/402test/data-structure/blob/master/Queue/leetcode-queue-2.py)
 
 #### 打开转盘锁
 
@@ -173,3 +173,5 @@ class MyCircularQueue:
 死亡列表 deadends 的长度范围为 [1, 500]。
 目标数字 target 不会在 deadends 之中。
 每个 deadends 和 target 中的字符串的数字会在 10,000 个可能的情况 '0000' 到 '9999' 中产生。
+
+[代码](https://github.com/402test/data-structure/blob/master/Queue/queue_4.py)
