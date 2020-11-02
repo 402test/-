@@ -227,5 +227,4 @@ class MyCircularQueue:
 解释: 因为路径 1→3→1→1→1 的总和最小。
 ```
 
-代码
-测试码
+[代码](https://github.com/402test/data-structure/blob/master/Queue/queue_5.py)
