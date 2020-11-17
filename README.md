@@ -306,3 +306,11 @@ $$
 3. **综合偷窃最大金额：** 为以上两种情况的较大值，即 max(p1,p2) 。
 
 [代码](https://github.com/402test/data-structure/blob/master/dp/dp_2.py)
+
+
+
+最长公共子序列
+
+
+
+[代码](https://github.com/402test/data-structure/blob/master/dp/dp_3.py)
