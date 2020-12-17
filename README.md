@@ -28,6 +28,7 @@
 
 ### 设计循环队列
 [代码](https://github.com/402test/data-structure/blob/master/Queue/queue_2.py)
+
 - 时间复杂度：O(1)。该数据结构中，所有方法都具有恒定的时间复杂度。
 - 空间复杂度：O(N)，其中 N 是队列的预分配容量。*循环队列的整个生命周期中，都持有该预分配的空间。*
 
@@ -319,7 +320,6 @@ $$
 若这两个字符串没有公共子序列，则返回 0。
 
 
-
 ```
 示例 1:
 输入：text1 = "abcde", text2 = "ace" 
@@ -338,3 +338,74 @@ $$
 ```
 
 [代码](https://github.com/402test/data-structure/blob/master/dp/dp_3.py)
+
+单词拆分
+
+给定一个非空字符串 s 和一个包含非空单词的列表 wordDict，判定 s 是否可以被空格拆分为一个或多个在字典中出现的单词。
+
+说明：
+
+拆分时可以重复使用字典中的单词。
+你可以假设字典中没有重复的单词。
+
+```
+示例 1：
+
+输入: s = "leetcode", wordDict = ["leet", "code"]
+输出: true
+解释: 返回 true 因为 "leetcode" 可以被拆分成 "leet code"。
+示例 2：
+
+输入: s = "applepenapple", wordDict = ["apple", "pen"]
+输出: true
+解释: 返回 true 因为 "applepenapple" 可以被拆分成 "apple pen apple"。
+     注意你可以重复使用字典中的单词。
+示例 3：
+
+输入: s = "catsandog", wordDict = ["cats", "dog", "sand", "and", "cat"]
+输出: false
+
+```
+
+
+
+[别人的代码]( https://leetcode-cn.com/problems/word-break/solution/dong-tai-gui-hua-ji-yi-hua-hui-su-zhu-xing-jie-shi/)
+
+[代码](https://github.com/402test/data-structure/blob/master/dp/dp_4.py)
+
+
+
+
+
+最大正方形
+
+在一个由 `'0'` 和 `'1'` 组成的二维矩阵内，找到只包含 `'1'` 的最大正方形，并返回其面积。
+
+![image-20201214183920531](C:\Users\huangchengwei\AppData\Roaming\Typora\typora-user-images\image-20201214183920531.png)
+
+
+
+```
+输入：matrix = [["1","0","1","0","0"],["1","0","1","1","1"],["1","1","1","1","1"],["1","0","0","1","0"]]
+输出：4
+```
+
+![image-20201214183948510](C:\Users\huangchengwei\AppData\Roaming\Typora\typora-user-images\image-20201214183948510.png)
+
+
+
+```
+输入：matrix = [["0","1"],["1","0"]]
+输出：1
+```
+
+实例3
+
+```
+输入：matrix = [["0"]]
+输出：0
+```
+
+  
+
+[代码](https://github.com/402test/data-structure/blob/master/dp/dp_5.py)
